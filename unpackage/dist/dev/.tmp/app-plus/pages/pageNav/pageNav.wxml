@@ -1,0 +1,1 @@
+<view class="data-v-2026633f"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index"><view data-event-opts="{{[['tap',[['read',['$0',index],[[['list','',index]]]]]]]}}" class="{{['data-v-2026633f',(pageNum==index)?'hover':'']}}" style="padding-left:30rpx;line-height:70rpx;" bindtap="__e">{{''+item.name+''}}</view></block></view>

@@ -1,0 +1,160 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/book-mall/book-mall",
+			"style": {
+				"titleNView":false,
+				"app-plus":{}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path": "pages/classify/classify",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"app-plus":{
+					
+				}
+			}
+		},
+		{
+			"path": "pages/comment/comment",
+			"style": {
+				"navigationBarTitleText": "评论",
+				"app-plus":{}
+			}
+		},
+		{
+			"path": "pages/section/section",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					"titleNView":false,
+					"scrollIndicator":"none"	//隐藏滚动条
+				}
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "简介",
+				"navigationBarBackgroundColor": "#fff",
+				"app-plus":{}
+			}
+		},
+		
+		
+		{
+			"path": "pages/idea/idea",
+			"style": {
+				"navigationBarTitleText": "都市",
+				"app-plus":{
+				}
+			}
+		},
+		{
+			"path": "pages/bookrack/bookrack",
+			"style": {
+				"navigationBarTitleText": "我的书架",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "light",
+				"app-plus":{
+				}
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},{
+            "path" : "pages/pageNav/pageNav",
+            "style" : {
+				"navigationBarTitleText": "章节目录"
+			}
+        },{
+		    "path": "pages/login/login",
+		    "style": {
+				
+			}
+		}, {
+		    "path": "pages/login/forget",
+		    "style": {}
+		}, {
+		    "path": "pages/login/register",
+		    "style": {}
+		}, {
+		    "path": "pages/search/search",
+		    "style": {
+				"navigationBarTitleText": "",
+				"app-plus":{
+					"titleNView":false
+				 }
+			}
+		},{ 
+			"path": "pages/boutique/boutique",
+			"style": {
+				"navigationBarTitleText": "精品" 
+			}
+		},{ 
+			"path": "pages/crunchies/crunchies",
+			"style": {
+				"navigationBarTitleText": "榜单" 
+			}
+		},{ 
+			"path": "pages/newBooks/newBooks",
+			"style": {
+				"navigationBarTitleText": "新书" 
+			}
+		},{ 
+			"path": "pages/info/info",
+			"style": {
+				"navigationBarTitleText": "用户信息" 
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "阅读书城",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	"tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [{
+        "pagePath": "pages/book-mall/book-mall",
+        "iconPath": "static/tabbar/l-tabbar-1.png",
+        "selectedIconPath": "static/tabbar/l-tabbar-1-hover.png",
+        "text": "书城"
+    },{
+        "pagePath": "pages/classify/classify",
+        "iconPath": "static/tabbar/l-tabbar-3.png",
+        "selectedIconPath": "static/tabbar/l-tabbar-3-hover.png",
+        "text": "分类"
+    },{
+        "pagePath": "pages/bookrack/bookrack",
+        "iconPath": "static/tabbar/l-tabbar-2.png",
+        "selectedIconPath": "static/tabbar/l-tabbar-2-hover.png",
+        "text": "书架"
+    },{
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/tabbar/l-tabbar-4.png",
+        "selectedIconPath": "static/tabbar/l-tabbar-4-hover.png",
+        "text": "我的"
+    }]
+}
+}
